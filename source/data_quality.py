@@ -71,3 +71,26 @@ print(f"Invalid seasons: {result['invalid_seasons']}")
 print(f"Invalid weather: {result['invalid_weather']}")
 print(f"Invalid total counts: {result['invalid_total_counts']}")
 print(f"Conversion errors: {result['conversion_errors']}")
+
+def format_report(result):
+    return f"""Data Quality Report
+
+Rows: {result["rows"]}
+Columns: {result["columns"]}
+Missing values: {result["missing"]}
+
+Invalid hours: {result["invalid_hours"]}
+Invalid months: {result["invalid_months"]}
+Invalid seasons: {result["invalid_seasons"]}
+Invalid weather: {result["invalid_weather"]}
+Invalid total counts: {result["invalid_total_counts"]}
+Conversion errors: {result["conversion_errors"]}
+"""
+
+r=report(data)
+form_rep=format_report(r)
+def save_report(filename, result):
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(result)
+
+save_report("data/report.txt", form_rep)
