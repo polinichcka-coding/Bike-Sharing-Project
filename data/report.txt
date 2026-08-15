@@ -1,0 +1,12 @@
+Data Quality Report
+
+Rows: 17379
+Columns: 17
+Missing values: 0
+
+Invalid hours: 0
+Invalid months: 0
+Invalid seasons: 0
+Invalid weather: 0
+Invalid total counts: 0
+Conversion errors: 0

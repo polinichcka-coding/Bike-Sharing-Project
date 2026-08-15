@@ -90,3 +90,5 @@ def get_column_types():
     date = ["dteday"]
     identifier = ["instant"]
     return categorical, numerical, date, identifier
+
+
