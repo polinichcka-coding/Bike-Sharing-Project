@@ -22,6 +22,7 @@ Dataset includes hourly information and such columns - instant, dteday, season, 
 
 ## Project structure
 
+```
 Bike-Sharing-Project/
 │
 ├── data/
@@ -52,6 +53,7 @@ Bike-Sharing-Project/
 │
 ├── cli.py
 └── README.md
+```
 
 ## Data loading
 
