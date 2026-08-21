@@ -16,8 +16,7 @@ The goal of project was to practice complete data analysis and ML workflow:
 The target variable is 'cnt', which represents total number of bike rentals
 
 ## Dataset
-The main dataset that was used is:```text 
-data/row/hour.csv
+The main dataset that was used is: data/row/hour.csv
 
 Dataset includes hourly information and such columns - instant, dteday, season, yr, mnth, hr, holiday, weekday, workingday, weathersit, temp, atemp, hum, windspeed, casual, registered, cnt. 
 
