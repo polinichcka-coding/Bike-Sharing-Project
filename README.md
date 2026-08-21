@@ -28,19 +28,17 @@ Bike-Sharing-Project/
 │   ├── raw/
 │   │   ├── hour.csv
 │   │   └── day.csv
-│   │
 │   └── processed/
 │       ├── hour_features.csv
 │       ├── X_train.csv
 │       ├── X_test.csv
 │       ├── y_train.csv
-│       ├── y_test.csv
-│       └── knn_error_analysis.csv
+│       └── y_test.csv
 │
 ├── notebooks/
 │   ├── 02_eda.ipynb
 │   ├── 03_feature_engineering.ipynb
-│   ├── 04_preprocessing.ipynb
+│   ├── 04_data_preparation.ipynb
 │   └── 05_knn.ipynb
 │
 ├── source/
@@ -49,9 +47,10 @@ Bike-Sharing-Project/
 │   └── transform_data.py
 │
 ├── tests/
-│   └── test_validate_data.py
-|   └── test_transform_data.py
+│   ├── test_validate_data.py
+│   └── test_transform_data.py
 │
+├── cli.py
 └── README.md
 
 ## Data loading
