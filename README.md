@@ -93,11 +93,17 @@ Data was divided into training and testing sets(80/20). Testing data is used to 
 ## KNN regression 
 KNN was implemented from scratch without using libraries. 
 Steps: 1) Test point
+
 2) Calculate distance to every training point
+
 3) Sort distances
+
 4) Select K nearest neighbors
+
 5) Take their target values
+
 6) Calculate their average
+
 7) Prediction
 
 The distance metric: Euclidian distance
@@ -109,6 +115,7 @@ Through different expirements I chose the best K, it is 5
 ## Model evaluation
 
 3 metrics were used
+
 MAE(Mean Absolute Error) - average absolute difference between real value and predicted one. 
 MAE = average(|actual - prediction|)
 For selected K, MAE is about 75, so this means that predicted model differs from actual by 75 rentals. 
